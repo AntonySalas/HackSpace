@@ -1,0 +1,533 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        /*
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+        */
+        html,body{
+            height:100%;
+        }
+        header{
+            background: yellow;
+            height: 150px;
+        }
+        nav{
+            background: orange;
+            height: 100%;
+            min-height: 100%;
+        }
+        main{
+            background: darkseagreen;
+        }
+        footer{
+            background: hotpink;
+            height: 100px;
+        }
+        main article{
+            background: skyblue;
+            margin: 20px 0px 0px 0px;
+        }
+        main header{
+            width: 90%;
+            height: 100px;
+            margin: auto;
+            background: pink;
+        }
+        main p{
+            width: 90%;
+            margin: auto;
+        }
+        main footer{
+            width: 90%;
+            margin: auto;
+            background: darkorange;
+            float: none;
+            height: 50px;
+        }
+        article article{
+            width: 88%;
+            background: #aebc26;
+            float: right;
+            right: 10px;
+            margin: 10px 0;
+            position:relative;
+        }
+        article textarea{
+            width: 80%;
+            float: right;
+            right: 15px;
+        }
+        article button{
+            right: 5px;
+            float: right;
+        }
+
+        .comments .post-comments{
+            background: #AFF09B !important;
+        }
+
+        .post-comments .meta{
+            background: hotpink;
+        }
+        .comentar{
+            background: yellow;
+        }
+
+
+
+
+
+
+        a {
+            color: #82b440;
+            text-decoration: none;
+        }
+        .blog-comment::before,
+        .blog-comment::after,
+        .blog-comment-form::before,
+        .blog-comment-form::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /*
+        .blog-comment{
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        */
+
+        .blog-comment ul{
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .blog-comment img{
+            opacity: 1;
+            filter: Alpha(opacity=100);
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+        }
+
+        .blog-comment img.avatar {
+            position: relative;
+            float: left;
+            margin-left: 0;
+            margin-top: 0;
+            width: 65px;
+            height: 65px;
+        }
+
+        .blog-comment .post-comments{
+            border: 1px solid #eee;
+            margin-bottom: 20px;
+            margin-left: 85px;
+            margin-right: 0px;
+            padding: 10px 20px;
+            position: relative;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            background: #fff;
+            color: #6b6e80;
+            position: relative;
+        }
+
+        .blog-comment .meta {
+            font-size: 13px;
+            color: #aaaaaa;
+            padding-bottom: 8px;
+            margin-bottom: 10px !important;
+            border-bottom: 1px solid #eee;
+        }
+
+        .blog-comment ul.comments ul{
+            list-style-type: none;
+            padding: 0;
+            margin-left: 85px;
+        }
+
+        .blog-comment-form{
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 40px;
+        }
+
+        .blog-comment h3,
+        .blog-comment-form h3{
+            margin-bottom: 40px;
+            font-size: 26px;
+            line-height: 30px;
+            font-weight: 800;
+        }
+
+
+
+
+
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+
+<div class="container">
+    <header class="row">
+        <div class="col-md-12">
+            <h1>
+                HEADER.
+            </h1>
+        </div>
+    </header>
+    <div class="row" style="background: orange;">
+        <nav class="col-md-2">
+            NAV BARS
+        </nav>
+        <main class="col-md-10">
+            <div class="row">
+
+                <article class="col-md-offset-1 col-md-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 style="background: #F6E1B9;">
+                                Titulo de Articulo 01.
+                            </h2>
+                            <time style="background: #B9F6DE;" datetime="14/01/2016" >14/01/2016</time>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>
+                                Heading
+                            </h4>
+                            <p>
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                            </p>
+                            <p>
+                                <a class="btn" href="#">View details »</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tag-list well" style="background: #EDCE53;">
+                                <a href="#" class="btn btn-primary" role="button"><b>FPS</b> <small>(12)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Battle</b> <small>(2)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Vidéo</b> <small>(6)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Arma 3</b> <small>(2)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Grid</b> <small>(1)</small></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="blog-comment">
+                                <ul class="comments">
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-offset-1 col-md-10 comentar">
+                                <form role="form">
+                                    <div class="form-group col-md-10">
+                                        <label for="exampleInputEmail1">
+                                            Nuevo Comentario:
+                                        </label>
+                            <textarea class="form-control" placeholder="Comentario...">
+                            </textarea>
+                                    </div>
+                                    <div class="col-sm-2 bottom" style="text-align: center; vertical-align: bottom;">
+                                        <button type="submit" class="btn btn-danger bottom-left">
+                                            Enviar
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-offset-1 col-md-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 style="background: #F6E1B9;">
+                                Titulo de Articulo 01.
+                            </h2>
+                            <time style="background: #B9F6DE;" datetime="14/01/2016" >14/01/2016</time>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>
+                                Heading
+                            </h4>
+                            <p>
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                            </p>
+                            <p>
+                                <a class="btn" href="#">View details »</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tag-list well" style="background: #EDCE53;">
+                                <a href="#" class="btn btn-primary" role="button"><b>FPS</b> <small>(12)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Battle</b> <small>(2)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Vidéo</b> <small>(6)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Arma 3</b> <small>(2)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Grid</b> <small>(1)</small></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="blog-comment">
+                                <ul class="comments">
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-offset-1 col-md-10 comentar">
+                                <form role="form">
+                                    <div class="form-group col-md-10">
+                                        <label for="exampleInputEmail1">
+                                            Nuevo Comentario:
+                                        </label>
+                            <textarea class="form-control" placeholder="Comentario...">
+                            </textarea>
+                                    </div>
+                                    <div class="col-sm-2 bottom" style="text-align: center; vertical-align: bottom;">
+                                        <button type="submit" class="btn btn-danger bottom-left">
+                                            Enviar
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-offset-1 col-md-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 style="background: #F6E1B9;">
+                                Titulo de Articulo 01.
+                            </h2>
+                            <time style="background: #B9F6DE;" datetime="14/01/2016" >14/01/2016</time>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>
+                                Heading
+                            </h4>
+                            <p>
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                            </p>
+                            <p>
+                                <a class="btn" href="#">View details »</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tag-list well" style="background: #EDCE53;">
+                                <a href="#" class="btn btn-primary" role="button"><b>FPS</b> <small>(12)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Battle</b> <small>(2)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Vidéo</b> <small>(6)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Arma 3</b> <small>(2)</small></a>
+                                <a href="#" class="btn btn-primary" role="button"><b>Grid</b> <small>(1)</small></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="blog-comment">
+                                <ul class="comments">
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="post-comments">
+                                            <p class="meta"><time datetime="14/01/2016 14:00:00">14/01/2016 a las 14:00:00</time>: </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Etiam a sapien odio, sit amet
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-offset-1 col-md-10 comentar">
+                                <form role="form">
+                                    <div class="form-group col-md-10">
+                                        <label for="exampleInputEmail1">
+                                            Nuevo Comentario:
+                                        </label>
+                            <textarea class="form-control" id="exampleInputEmail1" placeholder="Comentario...">
+                            </textarea>
+                                    </div>
+                                    <div class="col-sm-2 bottom" style="text-align: center; vertical-align: bottom;">
+                                        <button type="submit" class="btn btn-danger bottom-left">
+                                            Enviar
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+
+
+    </main>
+        </div>
+    <footer class="row">
+        <div class="col-md-12" style="text-align: center; background: hotpink;">
+            Editado por Antonio Salas -  <small> antony.salas@gmail.com <cite>HackSpace</cite></small>
+        </div>
+    </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+<script src="js/vendor/bootstrap.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+</body>
+</html>
